@@ -1,0 +1,16 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit"
+  },
+  "deno.enable": true,
+  "deno.enablePaths": ["main/supabase/functions", "main/tests"],
+  "deno.unstable": true,
+  "deno.importMap": "main/supabase/functions/deno.json",
+  "deno.lint": true,
+  "deno.suggest.imports.hosts": {
+      "https://deno.land": true,
+      "https://esm.sh": true
+  }
+}
